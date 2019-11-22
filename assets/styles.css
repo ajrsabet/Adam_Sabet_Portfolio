@@ -1,4 +1,4 @@
-header {
+/* header {
     width: 960px;
     margin: 0 auto;
 }
@@ -71,8 +71,7 @@ header {
   
     }
     
-  
-  /* Alternate headers */
+
     .name {
       justify-content: flex-start;
       font-size: 35px;
@@ -88,7 +87,7 @@ header {
       margin-bottom: 20px;
     }
   
-  /* Style the top navigation bar */
+
   .headerbar{
     height: 80px;
     top: 0;
@@ -108,7 +107,7 @@ header {
     justify-content: space-between;
   }
   
-  /* Style the topnav links */
+
   .topnav a {
     display: block;
     color: rgb(171, 171, 171);
@@ -117,7 +116,7 @@ header {
   }
   
   
-  /* Change color on hover */
+
   .topnav a:hover {
     background-color: rgb(171, 171, 171);
     color: black;
@@ -143,9 +142,7 @@ header {
     padding: 10px;
   }
   
-  /*PORTFOLIO PAGE*/
-  
-    /*image gallery*/
+
     div.gallery {
       margin: 5px;
       border: 1px solid #ccc;
@@ -201,7 +198,7 @@ header {
       width: 275px;
       height: 205.78px;
       background-color: #ffffff;
-      /* background-color: #fa03bc; */
+      
   
     }
   
@@ -215,7 +212,7 @@ header {
     }
   
     form {
-      /* width: 100%; */
+     
     }
     input {
       width: 100%;
@@ -231,4 +228,4 @@ header {
       padding: 15px;
       color: #ffffff;
   
-    }
+    } */
