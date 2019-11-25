@@ -24,6 +24,9 @@ h1 {
 
 }
 
+.carousel_pic {
+  height: 40vh;
+}
 
 /* header {
     width: 960px;
