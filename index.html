@@ -39,70 +39,57 @@
 
 
     <div class=container style="min-height: 83vh;">
-        <div class="row">
-            <div class="name">
-                ADAM SABET
-            </div>
-            <hr>
-        </div>
 
         <div class="card">
             <img class=profile-pic src="assets/images/adam_profile.webp" alt="Profile image" style="width: 200px;">
 
             <p>
                 <br>
-                Basically from birth I have been interested in how things work, and how to make them work better. My holistic view of the world is motivates me to look at things from every perspective. I have a lot of experience in the world of construction and I am now venturing into the world of computer programming. I hope to be able to explore and share my ideas to help the world progress.  
+                Basically from birth I have been interested in how things work, and how to make them work better. When I
+                was young, my favorite toys were Legos, Kenex, Erector Set, model rockets, and the like. Whenever we had
+                an electronic or an appliance stop working, my dad would give it to me to dissasemble.
+
                 </br>
+                <br>
+                My holistic view of the world motivates me to look at things from every perspective. I have a lot of
+                experience in the world of construction and I am now venturing into the world of computer programming. I
+                hope to be able to explore and share my ideas to help the world progress.
+                </br>
+            </p>
         </div>
 
-        <div class="row">
-            <div class="column">
-              <img class="portfolio-pic" src="assets/images/Pig_E_Bank.png" alt="Pig_E_Bank" onclick="myFunction(this);">
-            </div>
-            <div class="column">
-              <img class="portfolio-pic" src="assets/images/Javascript_Quiz.png" alt="Javascript_Quiz" onclick="myFunction(this);">
-            </div>
-            <div class="column">
-              <img class="portfolio-pic" src="assets/images/Password_Generator.png" alt="Password_Generator" onclick="myFunction(this);">
-            </div>
-            <div class="column">
-              <img class="portfolio-pic" src="assets/images/Day_Planner.png" alt="Day_Planner" onclick="myFunction(this);">
-            </div>
-            <div class="column">
-                <img class="portfolio-pic" src="assets/images/Weather_Dashboard.png" alt="Weather_Dashboard" onclick="myFunction(this);">
-              </div>
-          </div>
-          
-          <!-- The expanding image container -->
-          <div class="project-viewer">
-            <!-- Close the image -->
-            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-          
-            <!-- Expanded image -->
-            <img id="expandedImg" src="assets/images/Pig_E_Bank.png" style="width:100%">
-            
-            <!-- Image text -->
-            <div id="imgtext"></div>
-          </div>
         
+        <div class="scrolling-horiz">
+            <div class="row" id="portThumbs"></div>
+        </div>
 
-          
+
+        <div class="project-viewer">
+
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+            <img id="expandedImg" style="width:100%">
+
+            <div id="imgtext"></div>
+        </div>
+
 
     </div>
-    <footer class="navbar-dark bg-dark">
+    <!-- <footer class="navbar-dark bg-dark">
         copywrite 2019 &copy
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    </footer> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+    </script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-<script src="script.js"></script>
+    <script src="projects.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

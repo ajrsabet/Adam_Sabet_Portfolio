@@ -1,17 +1,89 @@
 /* body {
  background-image: url("assets/images/Lake_Whatcom.jpg");
 } */
+
+.parallax {
+  /* The image used */
+  background-image: url('images/joel-filipe-Wc8k-KryEPM-unsplash.jpg');
+/* background-color: black; */
+  /* Set a specific height */
+  height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #666666;
+  color: white; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-top: 8px solid;
+} */
+
+.active {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  background-color: gray;
+  opacity: 80%;
+  color: whitesmoke;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.profile-pic {
+  float: right;
+  margin: 30px 20px 5px 0;
+  opacity: 100%;
+  
+}
+
+.project-pic {
+width: 300px;
+margin: 20px;
+}
+
+/* 
+h1 {
+  margin: 20px 0;
+
+}
+
+.carousel_pic {
+  height: 40vh;
+} */
+
+
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+} */
+
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
-  padding: 10px;
+  width: 300px;
+  margin: 10px;
 }
 
 /* Style the images inside the grid */
 .column img {
-  opacity: 0.8;
-  cursor: pointer;
+  opacity: 0.8; 
+  cursor: pointer; 
 }
 
 .column img:hover {
@@ -25,7 +97,7 @@
   clear: both;
 }
 
-/* The expanding image container (positioning is needed to position the close button and the text) */
+/* The expanding image container */
 .project-viewer {
   position: relative;
   display: none;
@@ -40,7 +112,7 @@
   font-size: 20px;
 }
 
-/* Closable button inside the image */
+/* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
   top: 10px;
@@ -50,58 +122,34 @@
   cursor: pointer;
 }
 
-
-
-.parallax {
-  /* The image used */
-  background-image: url('images/Lake_Whatcom.jpg');
-
-  /* Set a specific height */
-  height: 900px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-footer {
-  width: 100%;
-  height: 10vh;
-  background-color: #666666;
-  color: white; 
+/* .scrolling-horiz { */
+  #portThumbs{
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  border-top: 8px solid;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 
-.active {
-  display: flex;
-  justify-content: center;
+/* change the scrollbar style */
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+    border-radius: 10px;
+    background-color: #444444;
 }
 
-.profile-pic {
-  float: left;
-  margin: 30px 20px 5px 0;
-  
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
 }
 
-.portfolio-pic {
-width: 100%;
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #D62929;
+    background-image: -webkit-linear-gradient(90deg,
+                                              transparent,
+                                              rgba(0, 0, 0, 0.4) 50%,
+                                              transparent,
+                                              transparent)
 }
-
-.card {
-  margin: 10px;
-}
-
-h1 {
-  margin: 20px 0;
-
-}
-
-.carousel_pic {
-  height: 40vh;
-}
-
