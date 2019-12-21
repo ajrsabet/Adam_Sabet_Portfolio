@@ -1,3 +1,71 @@
+/* body {
+ background-image: url("assets/images/Lake_Whatcom.jpg");
+} */
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.project-viewer {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+
+.parallax {
+  /* The image used */
+  background-image: url('images/Lake_Whatcom.jpg');
+
+  /* Set a specific height */
+  height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 footer {
   width: 100%;
   height: 10vh;
@@ -9,10 +77,19 @@ footer {
   border-top: 8px solid;
 }
 
+.active {
+  display: flex;
+  justify-content: center;
+}
+
 .profile-pic {
   float: left;
   margin: 30px 20px 5px 0;
   
+}
+
+.portfolio-pic {
+width: 100%;
 }
 
 .card {
