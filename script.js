@@ -12,18 +12,26 @@ $(document).ready(function () {
         image.addClass('project-pic');
         image.attr('src', projectsArr[i].imageLoc)
         image.attr('alt', projectsArr[i].tittle)
+        image.attr('id', i)
         // attach click function
         image.attr('onclick', 'expandPic(this);')
         column.append(image);
         }
  
+        // $('#expandedImg').attr('src', projectsArr[0].imageLoc)
+
 })
 
 
 function expandPic(imgs) {
-    var expandImg = document.getElementById("expandedImg");
-    var imgText = document.getElementById("imgtext");
+    const expandImg = document.getElementById("expandedImg");
+    const imgText = document.getElementById("imgtext");
+    const url = document.getElementById("url")
+    const gitHub = document.getElementById("gitHub")
     expandImg.src = imgs.src;
     imgText.innerHTML = imgs.alt;
+    url.href = projectsArr[imgs.id].URL;
+    gitHub.href = projectsArr[imgs.id].gitHub;
     expandImg.parentElement.style.display = "block";
+    
 }
