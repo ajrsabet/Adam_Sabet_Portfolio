@@ -1,6 +1,6 @@
-// $(".container").click(() => {
 
-// });
+
+
 $(document).ready(function () {
     for (let i = 0; i < projectsArr.length; i++) {
         // make new column div for portfolio thumbnails
@@ -16,27 +16,27 @@ $(document).ready(function () {
         image.attr('onclick', 'expandPic(this);')
         column.append(image);
         }
-  
+ 
 })
 
-// horizontal project thumbnail slider
-var view = $("#tslshow");
-var move = "100px";
-var sliderLimit = -750;
+// // horizontal project thumbnail slider
+// var view = $("#tslshow");
+// var move = "100px";
+// var sliderLimit = -750;
 
-$("#rightArrow").click(function(){
+// $("#rightArrow").click(function(){
 
-    var currentPosition = parseInt(view.css("left"));
-    if (currentPosition >= sliderLimit) view.stop(false,true).animate({left:"-="+move},{ duration: 400})
+//     var currentPosition = parseInt(view.css("left"));
+//     if (currentPosition >= sliderLimit) view.stop(false,true).animate({left:"-="+move},{ duration: 400})
 
-});
+// });
 
-$("#leftArrow").click(function(){
+// $("#leftArrow").click(function(){
 
-    var currentPosition = parseInt(view.css("left"));
-    if (currentPosition < 0) view.stop(false,true).animate({left:"+="+move},{ duration: 400});
+//     var currentPosition = parseInt(view.css("left"));
+//     if (currentPosition < 0) view.stop(false,true).animate({left:"+="+move},{ duration: 400});
 
-});
+// });
 
 
 
@@ -48,3 +48,5 @@ function expandPic(imgs) {
     imgText.innerHTML = imgs.alt;
     expandImg.parentElement.style.display = "block";
 }
+
+// var rellax = new Rellax('.rellax');
