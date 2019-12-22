@@ -86,7 +86,7 @@
 /* The expanding image container */
 .project-viewer {
   position: relative;
-  display: none;
+  /* display: none; */
   margin: 20px 0;
 }
 
