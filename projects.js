@@ -4,7 +4,7 @@ const projectsArr = [{
     URL: 'https://ajrsabet.github.io/Screen_Time_Tracker/',
     imageLoc: 'assets/images/Pig_E_Bank.png',
     gitHub: 'https://github.com/ajrsabet/Screen_Time_Tracker',
-    discrption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit architecto, ab incidunt fugit, eos maxime ea pariatur vel inventore distinctio recusandae vero cum sequi earum in? Nesciunt reprehenderit qui sed.',
+    discrption: '',
     },
     {
     tittle: 'Javascript Quiz',
@@ -12,7 +12,7 @@ const projectsArr = [{
         URL: 'https://ajrsabet.github.io/Javascript_Quiz/',
     imageLoc: 'assets/images/Javascript_Quiz.png',
     gitHub: 'https://github.com/ajrsabet/Javascript_Quiz',
-    discrption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit architecto, ab incidunt fugit, eos maxime ea pariatur vel inventore distinctio recusandae vero cum sequi earum in? Nesciunt reprehenderit qui sed.',
+    discrption: '',
     },
     {
     tittle: 'Password Generator',
@@ -20,7 +20,7 @@ const projectsArr = [{
         URL: 'https://ajrsabet.github.io/Password_Generator/',
     imageLoc: 'assets/images/Password_Generator.png',
     gitHub: 'https://github.com/ajrsabet/Password_Generator',
-    discrption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit architecto, ab incidunt fugit, eos maxime ea pariatur vel inventore distinctio recusandae vero cum sequi earum in? Nesciunt reprehenderit qui sed.',
+    discrption: '',
     },
     {
     tittle: 'Day Planner',
@@ -28,7 +28,7 @@ const projectsArr = [{
         URL: 'https://ajrsabet.github.io/Day_Planner/',
     imageLoc: 'assets/images/Day_Planner.png',
     gitHub: 'https://github.com/ajrsabet/Day_Planner',
-    discrption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit architecto, ab incidunt fugit, eos maxime ea pariatur vel inventore distinctio recusandae vero cum sequi earum in? Nesciunt reprehenderit qui sed.',
+    discrption: '',
     },
     {
     tittle: 'Weather Dashboard',
@@ -36,6 +36,6 @@ const projectsArr = [{
         URL: 'https://ajrsabet.github.io/Weather_Dashboard/',
     imageLoc: 'assets/images/Weather_Dashboard.png',
     gitHub: 'https://github.com/ajrsabet/Weather_Dashboard',
-    discrption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit architecto, ab incidunt fugit, eos maxime ea pariatur vel inventore distinctio recusandae vero cum sequi earum in? Nesciunt reprehenderit qui sed.',
+    discrption: '',
     },
 ]

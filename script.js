@@ -18,7 +18,6 @@ $(document).ready(function () {
         column.append(image);
         }
  
-        // $('#expandedImg').attr('src', projectsArr[0].imageLoc)
 
 })
 

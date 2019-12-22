@@ -37,6 +37,7 @@
 
 .card {
   margin: 20px 0;
+  padding: 20px;
   background-color: gray;
   opacity: 90%;
   color: whitesmoke;
@@ -52,7 +53,11 @@
   opacity: 100%;
 
 }
-
+.linkedinLogo {
+  width: 45px;
+  float: right;
+  margin: 0 20px;
+}
 .project-pic {
   width: 300px;
   margin: 20px;
