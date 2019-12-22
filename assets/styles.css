@@ -37,6 +37,7 @@
 
 .card {
   margin: 20px 0;
+  padding: 20px;
   background-color: gray;
   opacity: 90%;
   color: whitesmoke;
@@ -52,7 +53,11 @@
   opacity: 100%;
 
 }
-
+.linkedinLogo {
+  width: 45px;
+  float: right;
+  margin: 0 20px;
+}
 .project-pic {
   width: 300px;
   margin: 20px;
@@ -86,17 +91,34 @@
 /* The expanding image container */
 .project-viewer {
   position: relative;
-  display: none;
+  /* display: none; */
   margin: 20px 0;
 }
 
 /* Expanding image text */
 #imgtext {
   position: absolute;
+  bottom: 75px;
+  left: 15px;
+  font-weight: 500;
+  color: darkgray;
+  font-size: 20px;
+}
+#url {
+  position: absolute;
+  bottom: 45px;
+  left: 15px;
+  font-weight: 400;
+  color: darkgray;
+  font-size: 18px;
+}
+#gitHub {
+  position: absolute;
   bottom: 15px;
   left: 15px;
-  color: white;
-  font-size: 20px;
+  font-weight: 400;
+  color: darkgray;
+  font-size: 18px;
 }
 
 /* Closable button inside the expanded image */
