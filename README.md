@@ -1,5 +1,4 @@
-# Homework_2
-rebuild portfolio using bootstrap
+# Adam Sabet Portfolio
 
 ## Deployed link:
 https://ajrsabet.github.io/AJS_Portfolio_2/
