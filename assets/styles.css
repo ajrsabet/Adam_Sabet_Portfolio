@@ -1,9 +1,3 @@
-/* body { 
-  background-image: url('images/joel-filipe-Wc8k-KryEPM-unsplash.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
 .parallax {
   /* The image used */
@@ -19,16 +13,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* footer {
-  width: 100%;
-  height: 10vh;
-  background-color: #666666;
-  color: white; 
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  border-top: 8px solid;
-} */
 
 .active {
   display: flex;
@@ -51,7 +35,7 @@
   float: right;
   margin: 30px 20px;
   opacity: 100%;
-
+z-index: 2;
 }
 .linkedinLogo {
   width: 45px;
