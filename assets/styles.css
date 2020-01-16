@@ -22,8 +22,7 @@
 .card {
   margin: 20px 0;
   padding: 20px;
-  background-color: gray;
-  opacity: 90%;
+  background-color: rgb(128, 128, 128, .8);
   color: whitesmoke;
   font-size: larger;
   font-weight: 500;
