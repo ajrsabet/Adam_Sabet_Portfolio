@@ -15,6 +15,14 @@ const projectsArr = [{
         discrption: '',
     },
     {
+        tittle: 'My Notes',
+        rank: 2,
+        URL: 'http://my-notes-ajs.herokuapp.com',
+        imageLoc: 'assets/images/My_Note_Screenshot.png',
+        gitHub: 'https://github.com/ajrsabet/My_Notes',
+        discrption: 'This is an application that can be used to write, save, and delete notes. This application uses an express backend to save and retrieve note data from a JSON file.',
+    },
+    {
         tittle: 'Javascript Quiz',
         rank: 2,
         URL: 'https://ajrsabet.github.io/Javascript_Quiz/',
@@ -45,6 +53,13 @@ const projectsArr = [{
         imageLoc: 'assets/images/Weather_Dashboard.png',
         gitHub: 'https://github.com/ajrsabet/Weather_Dashboard',
         discrption: '',
-    },
-    
+    }, 
+    {
+        tittle: 'Team Summarizer',
+        rank: 6,
+        URL: 'https://ajrsabet.github.io/Weather_Dashboard/',
+        imageLoc: 'assets/images/Team_summarizer_screenshot.png',
+        gitHub: 'https://github.com/ajrsabet/Team_Summerizer',
+        discrption: '',
+    }
 ]
