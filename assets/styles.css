@@ -19,16 +19,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* footer {
-  width: 100%;
-  height: 10vh;
-  background-color: #666666;
-  color: white; 
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  border-top: 8px solid;
-} */
 
 .active {
   display: flex;
@@ -61,6 +51,7 @@
 .project-pic {
   width: 300px;
   margin: 20px;
+  border-style: ;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
