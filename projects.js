@@ -1,10 +1,17 @@
 const projectsArr = [
     {
         tittle: 'Trade Jack',
-        URL: 'https://ajrsabet.github.io/Screen_Time_Tracker/',
+        URL: 'https://trade-jack.herokuapp.com/',
         imageLoc: './assets/images/Trade_Jack.png',
         gitHub: 'https://github.com/jittel/project2',
-        discrption: '',
+        discrption: 'This is Reverse task bidding application where users can post tasks or projects they need help with and other users can bid on those tasks.',
+    },
+    {
+        tittle: 'Workout Tracker',
+        URL: 'https://fitness-tracker-coolness.herokuapp.com/',
+        imageLoc: './assets/images/workout_screenshot.png',
+        gitHub: 'https://github.com/ajrsabet/my_workout_tracker',
+        discrption: 'This is a fitness tracking',
     },
     {
         tittle: 'Pig E_Bank',
@@ -18,7 +25,7 @@ const projectsArr = [
         URL: 'https://dats-da-burger.herokuapp.com/',
         imageLoc: './assets/images/Burger_Screenshot.png',
         gitHub: 'https://github.com/ajrsabet/Thats_Da_Burger',
-        discrption: '',
+        discrption: 'This application is a burger counter using MySQL, Heroku, JawsDB, Node, Express, Handlebars and Sequelize',
     },
     {
         tittle: 'My Notes',
@@ -39,7 +46,7 @@ const projectsArr = [
         URL: 'https://ajrsabet.github.io/Password_Generator/',
         imageLoc: './assets/images/Password_Generator.png',
         gitHub: 'https://github.com/ajrsabet/Password_Generator',
-        discrption: '',
+        discrption: 'This application is a random password generator using JavaScript. It will generate a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.',
     },
     {
         tittle: 'Day Planner',
@@ -53,13 +60,20 @@ const projectsArr = [
         URL: 'https://ajrsabet.github.io/Weather_Dashboard/',
         imageLoc: './assets/images/Weather_Dashboard.png',
         gitHub: 'https://github.com/ajrsabet/Weather_Dashboard',
-        discrption: '',
+        discrption: 'Weather dashboard application with search functionality to find current weather conditions and the future weather outlook for multiple cities.',
     }, 
     {
         tittle: 'Team Summarizer',
-        URL: 'https://ajrsabet.github.io/Weather_Dashboard/',
+        URL: 'https://github.com/ajrsabet/Employee_Summerizer',
         imageLoc: './assets/images/Team_summarizer_screenshot.png',
         gitHub: 'https://github.com/ajrsabet/Team_Summerizer',
-        discrption: '',
+        discrption: 'This app creates an employee CMS, Employee Management System, interface to view and interact with information stored in an employee database. This app uses node.js, inquirer, and MySQL to interface information from the command line to be able to create, read, update, and delete information from a database.',
+    }, 
+    {
+        tittle: 'Employee CMS',
+        URL: '',
+        imageLoc: './assets/images/Employee_CMS_Screenshot.png',
+        gitHub: 'https://github.com/ajrsabet/Team_Summerizer',
+        discrption: 'This is a terminal based application which uses the Inquirer npm package to prompt the user for their email, id, and specific information based on their role with the company. For instance, an intern may provide their school, whereas an engineer may provide their GitHub username.',
     }
 ]
