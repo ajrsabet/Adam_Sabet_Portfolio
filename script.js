@@ -6,18 +6,27 @@ $(document).ready(function () {
         <img class="project-pic" src="${projectsArr[i].imageLoc}" alt="${projectsArr[i].tittle}" id="${i}" onclick="expandPic(this);">
     </div>`);
     };
+    expandPic()
 })
 
 
 function expandPic(imgs) {
-    const expandImg = document.getElementById("expandedImg");
-    const imgText = document.getElementById("imgtext");
-    const url = document.getElementById("url")
-    const gitHub = document.getElementById("gitHub")
-    expandImg.src = imgs.src;
-    imgText.innerHTML = imgs.alt;
-    url.href = projectsArr[imgs.id].URL;
-    gitHub.href = projectsArr[imgs.id].gitHub;
-    expandImg.parentElement.style.display = "block";
+let project;
+    if (!imgs) {
+        project = projectsArr[0];
+    } else {
+        project = projectsArr[imgs.id];
+    }
     
+    $(".project-viewer").empty();
+    $(".project-viewer").html(`<img id="expandedImg" class="image" alt="project-viewer" src="${project.imageLoc}"
+    style="width:100%">
+    <div class="middle">
+        <div class="text">
+            <h1 id="imgtext">${project.title}</h1>
+            <a id="url" href="${project.URL}">URL Link</a>
+            <a id="gitHub" href="${project.gitHub}">GitHub</a>
+            <p>${project.description}<p>
+        </div>
+    </div>`);
 }

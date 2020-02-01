@@ -60,8 +60,9 @@ z-index: 2;
 
 /* Style the images inside the grid */
 .column img {
-  opacity: 0.8;
+  opacity: 0.6;
   cursor: pointer;
+  transition: .5s ease;
 }
 
 .column img:hover {
@@ -82,31 +83,7 @@ z-index: 2;
   margin: 20px 0;
 }
 
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 75px;
-  left: 15px;
-  font-weight: 500;
-  color: darkgray;
-  font-size: 20px;
-}
-#url {
-  position: absolute;
-  bottom: 45px;
-  left: 15px;
-  font-weight: 400;
-  color: darkgray;
-  font-size: 18px;
-}
-#gitHub {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  font-weight: 400;
-  color: darkgray;
-  font-size: 18px;
-}
+
 
 
 /* .scrolling-horiz { */
@@ -147,22 +124,22 @@ z-index: 2;
 /* ~~~~ hover effect on project display ~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.container2 {
+/* .container2 {
   position: relative;
   width: 50%;
-}
+} */
 
 .image {
   opacity: 1;
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
+  transition: 1s ease;
   backface-visibility: hidden;
 }
 
 .middle {
-  transition: .5s ease;
+  transition: 1s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -172,22 +149,31 @@ z-index: 2;
   text-align: center;
 }
 
-.container2:hover .image {
-  opacity: 0.3;
+.project-viewer:hover .image {
+  opacity: 0.8;
+  filter: brightness(40%);
 }
 
-.container2:hover .middle {
+.project-viewer:hover .middle {
   opacity: 1;
 }
 
 .text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+  border-color: #D62929;
+  border-width: 3px;
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: rgb(128, 128, 128, .8);
+  box-shadow: 20px 20px 50px 50px rgb(128, 128, 128, .8);
+  color: whitesmoke;
+  font-size: larger;
+  font-weight: 500;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
