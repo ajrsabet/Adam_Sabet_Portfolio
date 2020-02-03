@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="assets/styles.css">
   <title>Portfolio</title>
 </head>
@@ -26,25 +27,26 @@
   <div class=container>
     <div class="card">
       <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
           <div class="row">
 
             <img class=profile-pic src="./assets/images/adam_profile.png" alt="Profile image" style="width: 200px;">
           </div>
 
           <div class="row">
-            
+
             <ul style="list-style-type:none">
               <h3>Contact</h3>
               <li>503-867-9441</li>
               <li>arishel@gmail.com</li>
+              <br>
               <a href="https://www.linkedin.com/in/adam-sabet/"> <img class="linkedinLogo"
                   src="assets/images/linkedin-blue-style-logo-png-0.png" alt="Linkedin icon"></a>
             </ul>
           </div>
         </div>
 
-        <div class="col-md-9">
+        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
           <h1>My Portfolio</h1>
           <br>
           <h3>About Me</h3>
@@ -95,40 +97,67 @@
     </div>
     <div class="card">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-4 col-sm-12">
           <h3>My Coding Skills</h3>
           <br>
           I have experience programming full stack applications with these languages. I find that
           I enjoy and accel most at algorithms and program architecture.
         </div>
-        <div class="col-md-7 col-sm-12">
-          <div class="row">
-            <div class="col-md-6 col-sm-6">
-              <h3>Front-End</h3>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-              </ul>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <h3>Back-End</h3>
-              <ul>
-                <li>node.js</li>
-                <li>mySQL</li>
-                <li>Sequelize</li>
-                <li>Mongo</li>
-                <li>Mongoose</li>
-                <li>Express (coming soon)</li>
-              </ul>
-            </div>
+        <div class="col-md-8 col-sm-12">
+          <h3>Technology</h3>
+          <!-- HTML -->
+          <div class="skillbar clearfix " data-percent="70%">
+            <div class="skillbar-title" style="background: #D62929;"><span>HTML5</span></div>
+            <div class="skillbar-bar" style="background: #e67e22;"></div>
+            <div class="skill-bar-percent">70%</div>
+          </div>
+          <!-- CSS -->
+          <div class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #D62929;"><span>CSS</span></div>
+            <div class="skillbar-bar" style="background: #e67e22;"></div>
+            <div class="skill-bar-percent">30%</div>
+          </div>
+          <!-- Bootstrap -->
+          <div class="skillbar clearfix " data-percent="60%">
+            <div class="skillbar-title" style="background: #D62929;"><span>Bootstrap</span></div>
+            <div class="skillbar-bar" style="background: #e67e22;"></div>
+            <div class="skill-bar-percent">60%</div>
+          </div>
+          <!-- JavaScript -->
+          <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #D62929;"><span>JavaScript</span></div>
+            <div class="skillbar-bar" style="background: #e67e22;"></div>
+            <div class="skill-bar-percent">40%</div>
+          </div>
+          <!-- jQuery -->
+          <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #D62929;"><span>jQuery</span></div>
+            <div class="skillbar-bar" style="background: #e67e22;"></div>
+            <div class="skill-bar-percent">50%</div>
+          </div>
+          <!-- Node JS -->
+          <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #D62929;"><span>Node JS</span></div>
+            <div class="skillbar-bar" style="background: #e67e22;"></div>
+            <div class="skill-bar-percent">40%</div>
+          </div>
+          <!-- mySQL -->
+          <div class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #D62929;"><span>mySQL</span></div>
+            <div class="skillbar-bar" style="background: #e67e22;"></div>
+            <div class="skill-bar-percent">30%</div>
+          </div>
+          <!-- Sequelize -->
+          <div class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #D62929;"><span>Sequelize</span></div>
+            <div class="skillbar-bar" style="background: #e67e22;"></div>
+            <div class="skill-bar-percent">30%</div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
