@@ -1,3 +1,7 @@
+ul {
+  list-style-type:none
+}
+
 .parallax {
   /* The image used */
   background-image: url('images/joel-filipe-Wc8k-KryEPM-unsplash.jpg');
@@ -31,6 +35,7 @@
 
 .profile-pic {
   float: right;
+  width: 200px;
   margin: 30px 20px;
   opacity: 100%;
   z-index: 2;
@@ -213,7 +218,7 @@
   font-weight: bold;
   font-size: 13px;
   color: whitesmoke;
-  background: #6adcfa;
+  background: #D62929;
   -webkit-border-top-left-radius: 3px;
   -webkit-border-bottom-left-radius: 4px;
   -moz-border-radius-topleft: 3px;
@@ -239,7 +244,7 @@
 .skillbar-bar {
   height: 35px;
   width: 0px;
-  background: #6adcfa;
+  background: #e67e22;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;

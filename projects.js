@@ -1,10 +1,10 @@
 const projectsArr = [
     {
-        title: 'Workout Tracker',
-        URL: 'https://fitness-tracker-coolness.herokuapp.com/',
-        imageLoc: './assets/images/workout_screenshot.png',
-        gitHub: 'https://github.com/ajrsabet/my_workout_tracker',
-        description: 'This is a fitness tracking',
+        title: 'Leftovers',
+        URL: 'https://foodsavers20.herokuapp.com/login',
+        imageLoc: './assets/images/leftovers.png',
+        gitHub: 'https://github.com/Aslangh67/project3-back',
+        description: 'Leftōvers connects food suppliers with those in need to help facilitate a less wasteful world.',
     },
     {
         title: 'Trade Jack',
@@ -19,6 +19,20 @@ const projectsArr = [
         imageLoc: './assets/images/Pig_E_Bank.png',
         gitHub: 'https://github.com/ajrsabet/Screen_Time_Tracker',
         description: '',
+    },
+    {
+        title: 'Budget Tracker',
+        URL: 'https://budget-trackerz.herokuapp.com/',
+        imageLoc: './assets/images/Budget_screenshot.png',
+        gitHub: 'git clone git@github.com:ajrsabet/my_budget_tracker.git',
+        description: 'This is a PWA (Progressive Web App) a budget tracker using Mongo, Heroku, JawsDB, Node, Express, and Mongoose keeping capabilities while off-line.',
+    },
+    {
+        title: 'Workout Tracker',
+        URL: 'https://fitness-tracker-coolness.herokuapp.com/',
+        imageLoc: './assets/images/workout_screenshot.png',
+        gitHub: 'https://github.com/ajrsabet/my_workout_tracker',
+        description: 'This is a fitness tracking',
     },
     {
         title: 'Dats Da Burger',
