@@ -242,6 +242,8 @@ ul {
 }
 
 .skillbar-bar {
+  /* position: absolute;
+  left: 120px; */
   height: 35px;
   width: 0px;
   background: #e67e22;
