@@ -1,7 +1,7 @@
 # Adam Sabet Portfolio
 
 ## Deployed link:
-https://ajrsabet.github.io/AJS_Portfolio_2/
+https://ajrsabet.github.io/Adam_Sabet_Portfolio/
 
 ![Screenshot](./assets/images/Portfolio.png) 
 
